@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OctoKing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/foundation.css">
+	  	<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body data-interchange="[img/bg.jpg, (default)], [img/bg.jpg, (small)], [img/bg.jpg, (medium)], [img/bg.jpg, (large)]">
+	    <script src="js/jquery.js"></script>
+	  	<script src="js/formulaire.js"></script>
+		<div class="form container">
+			<div class="row">
+				<div class="large-12 columns">
+					<form>Quel est votre nom etrangé ?</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<input type="text" id="name" placeholder="ex : Paul" style="padding: 0px; margin: 0px"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<form>Quel est votre classe ?</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<a href="#"><img width="40px" id="mage" src="img/mage_icon.png"></a>
+					<a href="#"><img width="40px" id="warrior" src="img/warrior_icon.png"></a>
+					<a href="#"><img width="40px" id="ranger" src="img/ranger_icon.png"></a> <br>
+					<span>mage</span>
+					<span>warrior </span>
+					<span> ranger</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<input type="text" id="class" placeholder="warrior" style="padding: 0px; margin: 0px"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<form>Quel sont vos stats ?<br><small>*20points max</small></form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<label>force : </label><input type="number" id="str" min="1" max="17" value="1"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<label>agilité : </label><input type="number" id="dex" min="1" max="17" value="1"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<label>int : </label><input type="number" id="int" min="1" max="17" value="1"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<input type="submit" id="auto" value="auto stats"/> <br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<form>Quel est votre race ?</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<a href="#"><img width="40px" id="humain" src="img/humain.png"></a>
+					<a href="#"><img width="40px" id="nain" src="img/nain.png"></a>
+					<a href="#"><img width="40px" id="gnome" src="img/gnome.png"></a> <br>
+					<span style="padding: 5px">humain</span>
+					<span>nain </span>
+					<span style="padding: 5px"> gnome</span> <br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<input type="text" id="race" placeholder="gnome"/> <br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<input type="submit" id="go" value="Go !"/> <br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-2 columns large-offset-5 end">
+					<output id="error-form"></output>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

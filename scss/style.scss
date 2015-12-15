@@ -1,0 +1,31 @@
+$padinput : 10px;
+$error-col : #FF0000;
+
+.form {
+	text-align: center;
+	img {
+		padding-left: $padinput;
+	}
+}
+
+small {
+	font-size: 60%;
+}
+
+input {
+	margin-top: $padinput;
+	text-align: center;
+	
+}
+
+#error-form {
+	background-color: $error-col;
+	border-radius: 12px;
+	background-clip: padding-box;
+}
+
+body {
+    background: url("../img/bg.jpg") no-repeat center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}

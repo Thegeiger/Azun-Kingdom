@@ -1,0 +1,9 @@
+						millitaire : toutes les unité sont des unité gnome et on des point faibles et force diferente en fonction des races genre les gnome on moins de def ensuite si ton hero a des bonne relation il va pouvoir recruté des unité d'une autre race mais on verra apres ^^<br>
+						unité cac <br>
+
+						pour avoir un cava faut au moins 2 fermier une ferme et X fois le nombre de chevaux que tu veux transphormé en cava
+arme utile pour détruire les ranpare j'ai inventé un sisteme mais c'est chian a l'ecrire ^^
+						<br>
+						range (il y aurra un sisteme de munition pour les gnomes se sera leur point fort)<br>
+
+							<a id="add-fields"><img width="15" src="img/champ.jpg"/>champ<small>(cost 300)</small></a>

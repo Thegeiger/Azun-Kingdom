@@ -1,0 +1,61 @@
+body {
+  background: url("../img/fief.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin: 0px; }
+
+.container {
+  padding-bottom: 20px; }
+
+.goods {
+  color: #9A9A9A;
+  text-align: center;
+  background: url("../img/bg2.jpg");
+  -webkit-box-shadow: 0px 0px 10px 0px #000000;
+  /* Android 2.3+, iOS 4.0.24.2, Safari 34 */
+  box-shadow: 0px 0px 10px 0px #000000;
+  /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px; }
+
+@media only screen and (max-width: 1300px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: 130%; } }
+.border {
+  border: 2px solid black;
+  -webkit-box-shadow: 0px 0px 10px 0px #000000;
+  /* Android 2.3+, iOS 4.0.24.2, Safari 34 */
+  box-shadow: 0px 0px 10px 0px #000000;
+  /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */ }
+
+.corp {
+  margin-top: 20px; }
+  .corp .goods {
+    border-radius: 12px; }
+    .corp .goods h2 {
+      color: #996633; }
+    .corp .goods h3 {
+      color: #996633; }
+    .corp .goods h4 {
+      color: #996633; }
+    .corp .goods button {
+      background-color: #996633; }
+
+.unitee {
+  margin-top: 20px; }
+  .unitee .goods {
+    border-radius: 12px; }
+
+.news {
+  margin-top: 20px; }
+  .news .goods {
+    border-radius: 12px; }
+
+.marron {
+  color: #996633; }
+
+/*# sourceMappingURL=style_jeux.css.map */

@@ -1,0 +1,23 @@
+.form {
+  text-align: center; }
+  .form img {
+    padding-left: 10px; }
+
+small {
+  font-size: 60%; }
+
+input {
+  margin-top: 10px;
+  text-align: center; }
+
+#error-form {
+  background-color: #FF0000;
+  border-radius: 12px;
+  background-clip: padding-box; }
+
+body {
+    background: url("../img/bg.jpg") no-repeat center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */

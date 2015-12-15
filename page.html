@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OctoKing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/foundation.css">
+	  	<link rel="stylesheet" href="css/style_jeux.css" />
+	</head>
+	<body>
+	    <script src="js/jquery.js"></script>
+	  	<script src="js/jeux.js"></script>
+  	    <script src="js/foundation/foundation.js"></script>
+  	    <script src="js/foundation/foundation.interchange.js"></script>
+	    <script src="js/foundation/foundation.equalizer.js"></script>
+		<div class="container">
+
+			<div class="row" data-equalizer>
+
+				<div class="large-3 columns text-center goods" data-equalizer-watch>
+					<a href="./quetes.html" target="_blank"><div class="row">
+						<div class="large-12 columns">
+							<p>Quetes Heroique</p>
+						</div>
+					</div></a>
+					<a href="#"><div class="row">
+						<div class="large-12 columns">
+							<p>Donjon Heroique</p>
+						</div>
+					</div></a>
+					<a href="./stuff.html"><div class="row">
+						<div class="large-12 columns">
+							<p>Equipement / Boost</p>
+						</div>
+					</div></a>
+				</div>
+				<div class="goods large-6 columns" data-equalizer-watch>
+					<span id="argent"></span><br>
+					<span id="habitant"></span><small id="habmax"></small>
+					fief : 1 unitées millitaire
+					<br>
+				<div class="large-12 columns end" style="padding-left: 10px">
+					<div class="row">
+						<div class="large-12 columns">
+							<h4 class="text-center marron">Ressource</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<span>bois<br></span><span id="bois"></span>
+						</div>
+						<div class="large-2 columns">
+							<span>cheuvaux<br></span><span id="chevaux"></span>
+						</div>
+						<div class="large-2 columns">
+							<span>nourriture<br></span><span id="nourriture"></span>
+						</div>
+						<div class="large-2 columns">
+							<span>fer<br></span><span id="fer"></span>
+						</div>
+						<div class="large-2 columns end">
+							<span>mitrille<br></span><span id="mitrille"></span>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="large-3 columns text-center goods" data-equalizer-watch>
+					<a href="./invasion.html"><div class="row">
+						<div class="large-12 columns">
+							<p>Invasion</p>
+						</div>
+					</div></a>
+					<a href="#"><div class="row">
+						<div class="large-12 columns">
+							<p>Vendeur</p>
+						</div>
+					</div></a>
+					<a href="./relation.html" target="_blank"><div class="row">
+						<div class="large-12 columns">
+							<p>Relation</p>
+						</div>
+					</div></a>
+				</div>
+
+			</div>
+			<div class="news">
+				<div class="row">
+					<div class="large-12 columns end text-center goods">
+						ici on met les news <br>
+						<span style="color: red">vous avez perdu 3 unitées</span> <br>
+						<span style="color: green">vous avez gagné X argent</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row unitee">
+			</div>
+			<div class="corp">
+
+				<div class="row">
+
+					<div class="large-12 columns end text-center goods" style="color: white">
+							<h2 class="text-center">Batiment</h2>
+								<div class="row">
+									<div class="large-4 columns">
+										<h4 class="text-center">Habitation</h4>
+
+										<a id="add-habitant"><img width="15" src="img/peon.png"/>petite habitation<small>(30)</small></a> <br>
+									</div>
+									<div class="large-4 columns">
+										<h4 class="text-center">Agriculture / Elevage</h4>
+
+										<span id="champ"></span><a id="add-fields"><img width="15" src="img/champ.jpg"/>champ<small>(100)</small></a>
+										<span id="ferme"></span><a id="add-ferme"><img width="15" src="img/champ.jpg"/>ferme<small>(1200)</small></a><br>
+										<span id="ecurie"></span><a id="add-ecurie"><img width="15" src="img/peon.png"/>ecurie<small>(600)</small></a>
+										<span id="chevaux"></span><a id="add-chevaux"><img width="15" src="img/peon.png"/>cheuvaux<small>(100)</small></a><br>
+									</div>
+
+									<div class="large-4 columns">
+										<h4 class="text-center">Recolte</h4>
+
+										<span id="minef"></span><a id="add-minef"><img width="15" src="img/peon.png"/>mine fer<small>(50)</small></a>
+										<span id="minem"></span><a id="add-minem"><img width="15" src="img/peon.png"/>mineur mitr<small>(50)</small></a> <br>
+										<span id="mineo"></span><a id="add-mineo"><img width="15" src="img/peon.png"/>mineur or<small>(50)</small></a><br>
+										<span id="bucheron"></span><a id="add-bucheron"><img width="15" src="img/peon.png"/>bucheron<small>(50)</small></a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="large-6 columns">
+										<h4 class="text-center">Batiment militaire</h4>
+
+										<span id="forge"></span><a id="add-forge"><img width="15" src="img/peon.png"/>forge <small>(50)</small></a>
+										<span id="caserne"></span><a id="add-caserne"><img width="15" src="img/peon.png"/>caserne<small>(50)</small></a><br>
+									</div>
+
+									<div class="large-6 columns">
+										<h4 class="text-center">Culturel</h4>
+
+										<span id="eglise"></span><a id="add-eglise"><img width="15" src="img/peon.png"/>eglise <small>(50)</small></a>
+										<span id="bibli"></span><a id="add-bibli"><img width="15" src="img/peon.png"/>bibliotheque<small>(50)</small></a><br>
+									</div>
+								</div>
+								<h2 class="text-center">Unitée</h2>
+								<div class="row">
+									<div class="large-6 columns">
+										<h3 class="text-center">Corps à corps</h3>
+										<div class="large-6 columns">
+											<h4 class="text-center">Unitées basique</h4>
+											<a><img width="15" src="img/peon.png"/>mercenaire<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>milicien<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>soldat<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>cavalier<small>(50)</small></a><br>
+										</div>
+										<div class="large-6 columns">
+											<h4 class="text-center">Unitées entrainees</h4>
+											<a><img width="15" src="img/peon.png"/>assasin<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>armure lourde<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>cavalier lourd<small>(50)</small></a><br>
+										</div>
+									</div>
+									<div class="large-6 columns">
+										<h3 class="text-center">Distance</h3>
+										<div class="large-6 columns">
+											<h4 class="text-center">Unitées basique</h4>
+												<a><img width="15" src="img/peon.png"/>archer<small>(50)</small></a><br>
+												<a><img width="15" src="img/peon.png"/>arbaletrier<small>(50)</small></a>
+										</div>
+										<div class="large-6 columns">
+											<h4 class="text-center">Unitées entrainees</h4>
+											<a><img width="15" src="img/peon.png"/>archer monté<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>fleche noir<small>(50)</small></a>
+										</div>
+									</div>
+								</div>
+								<div class="row" style="padding-bottom: 30px">
+									<div class="large-12 columns">
+										<h3 class="text-center">Unitées spéciale</h3>
+										<div class="large-6 columns">
+											<h4 class="text-center">Magique / Technologique</h4>
+											<a><img width="15" src="img/peon.png"/>grenadier<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>mage<small>(50)</small></a>
+										</div>
+										<div class="large-6 columns">
+											<h4 class="text-center">Siege</h4>
+											<a><img width="15" src="img/peon.png"/>bélié<small>(50)</small></a><br>
+											<a><img width="15" src="img/peon.png"/>baliste<small>(50)</small></a>
+											<a><img width="15" src="img/peon.png"/>catapulte<small>(50)</small></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+
+		</div>
+	    <script>
+	      $(document).foundation();
+	    </script>
+	</body>
+</html>
